@@ -1,0 +1,11 @@
+body{margin: 20px;}
+.block{width: 130px; height: 152px; background: #ddd; display: none; }
+.menu{width: 110px; height: 30px; position: relative; margin: 5px 0 0px; line-height: 30px; padding-left: 20px; cursor: pointer; background: #aaa;}
+.menu:after{content:'⏷';font-size: 24px; width: 20px; height: 20px; background: transparent; position: absolute; top: 0px; right: 40px; }
+.item2{position: relative;}
+.block2{ width: 100px; height: 25px; display: none; background: #f00; position: absolute; left: 130px;  top: 18px; padding: 8px 20px;}
+.item2:after{content:'⏷'; font-size: 20px; width: 20px; height: 20px; background: transparent; position: absolute; top: 3px; right: 0px; }
+.block-big{display: block}
+.red:after{content:'⏵';}
+.item1, .item2, .item3, .item4{padding: 10px; cursor: pointer;transition: .5s}
+.item1:hover, .item2:hover, .item3:hover, .item4:hover{background: #eee;}

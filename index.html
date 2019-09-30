@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu JS</title>
+    <!-- ⌵mousedown -->
+    <link rel="stylesheet" href="menu.css">
+
+</head>
+
+
+<body>
+
+<h3>Пример выпадающего меню</h3>
+
+<div class="menu" onclick="block()">
+    MENU
+</div>
+<div class="block"  onclick="block2()">
+    <div class="item1">Item of Menu 1</div>
+    <div class="item2">Item of Menu 2
+        <div class="block2">
+            Item of Menu
+        </div>
+    </div>
+    <div class="item3">Item of Menu 3</div>
+    <div class="item4">Item of Menu 4</div>
+
+</div>
+
+
+<script src="menu.js"></script>
+
+</body>
+</html>
